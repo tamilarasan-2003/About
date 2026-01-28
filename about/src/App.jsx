@@ -11,18 +11,18 @@ import {
 
 const App = () => {
   return (
-    /* ===== BACKGROUND WITH IMAGE ===== */
+   
     <div
       className="min-h-screen flex items-center justify-center px-6 lg:px-10 bg-cover bg-center relative"
       style={{ backgroundImage: `url(${axn})` }}
     >
-      {/* DARK OVERLAY */}
+     
       <div className="absolute inset-0 bg-black/70"></div>
 
-      {/* ===== CONTENT ===== */}
+     
       <div className="relative z-10 w-full max-w-6xl flex flex-col lg:flex-row gap-10 items-center lg:items-start">
 
-        {/* ================= LEFT ABOUT CARD ================= */}
+       
         <div
           className="
             w-full lg:max-w-lg
@@ -56,7 +56,7 @@ const App = () => {
           </p>
         </div>
 
-        {/* ================= RIGHT PROFILE CARD ================= */}
+        
         <div
           className="
             w-full lg:max-w-lg
@@ -68,7 +68,7 @@ const App = () => {
             hover:shadow-blue-500/20
           "
         >
-          {/* TOP PROFILE */}
+        
           <div className="flex items-center gap-6">
             <div className="w-32 h-32 rounded-3xl bg-[#2a2f36] flex items-center justify-center overflow-hidden">
               <img
@@ -88,7 +88,6 @@ const App = () => {
             </div>
           </div>
 
-          {/* SOCIAL ICONS */}
           <div className="flex gap-4 mt-6">
             {[
               { icon: FaFacebookF, color: "hover:bg-blue-600" },
@@ -115,7 +114,6 @@ const App = () => {
             ))}
           </div>
 
-          {/* PROFESSIONAL DETAILS */}
           <div className="mt-8">
             <h3 className="text-sm font-semibold text-blue-400 mb-4">
               Professional Details
@@ -129,8 +127,8 @@ const App = () => {
               <Detail label="Job Title" value="Software Developer" />
               <Detail label="Level" value="Junior" />
               <Detail label="Location" value="
-No, 13 Dharapuram Road, Opp.Supreme Paradise, Tirupur - 641604, 
-Tamil Nadu" />
+               No, 13 Dharapuram Road, Opp.Supreme Paradise, Tirupur - 641604, 
+               Tamil Nadu" />
               <Detail label="Country" value="India" />
             </div>
           </div>
